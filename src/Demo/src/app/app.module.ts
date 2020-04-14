@@ -3,12 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import {GraphSpModule} from  'graph-sp';
+
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    GraphSpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
